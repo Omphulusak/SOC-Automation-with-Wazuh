@@ -149,6 +149,14 @@ After configuring the Wazuh Agent and Sysmon, I confirmed that Sysmon events wer
 <em><strong>Figure 4.</strong> Sysmon events successfully collected by Wazuh.</em>
 </p>
 
+<p align="center">
+  <img src="screenshots/wazuh-sysmon-log-ingestion.png" alt="Wazuh Sysmon Log Ingestion" width="900">
+</p>
+
+<p align="center">
+  <em><strong>Figure 2.</strong> Wazuh Discover displaying Sysmon events received from the Windows endpoint, confirming successful log ingestion.</em>
+</p>
+
 ---
 
 # Custom Detection Rules
