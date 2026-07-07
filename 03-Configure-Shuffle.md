@@ -13,7 +13,7 @@ Instead of reproducing the official Shuffle documentation, I followed the offici
 ## Architecture
 
 <p align="center">
-  <img src="../screenshots/soc-automation-architecture.png" alt="SOC Automation Architecture" width="900">
+  <img src="screenshots/soc-automation-architecture.png" alt="SOC Automation Architecture" width="900">
 </p>
 
 <p align="center">
@@ -35,7 +35,7 @@ Workflow:
 - Send an email notification to the SOC analyst
 
 <p align="center">
-  <img src="../screenshots/shuffle-workflow-overview.png" alt="Shuffle Workflow" width="900">
+  <img src="screenshots/shuffle-workflow-overview.png" alt="Shuffle Workflow" width="900">
 </p>
 
 <p align="center">
@@ -49,7 +49,7 @@ Workflow:
 The workflow is triggered automatically when Wazuh sends an alert to the configured webhook.
 
 <p align="center">
-  <img src="../screenshots/shuffle-webhook-trigger.png" alt="Shuffle Webhook Trigger" width="900">
+  <img src="screenshots/shuffle-webhook-trigger.png" alt="Shuffle Webhook Trigger" width="900">
 </p>
 
 <p align="center">
@@ -63,7 +63,7 @@ The workflow is triggered automatically when Wazuh sends an alert to the configu
 After processing the alert, Shuffle sends an email notification to the analyst.
 
 <p align="center">
-  <img src="../screenshots/shuffle-email-action-success.png" alt="Shuffle Email Action" width="900">
+  <img src="screenshots/shuffle-email-action-success.png" alt="Shuffle Email Action" width="900">
 </p>
 
 <p align="center">
@@ -73,7 +73,7 @@ After processing the alert, Shuffle sends an email notification to the analyst.
 The email received by the analyst confirms the workflow executed successfully.
 
 <p align="center">
-  <img src="../screenshots/email-alert-received.png" alt="Email Notification" width="900">
+  <img src="screenshots/email-alert-received.png" alt="Email Notification" width="900">
 </p>
 
 <p align="center">
@@ -87,7 +87,7 @@ The email received by the analyst confirms the workflow executed successfully.
 Shuffle automatically creates an alert in TheHive after enriching the Wazuh alert.
 
 <p align="center">
-  <img src="../screenshots/thehive-alert-created.png" alt="TheHive Alert" width="900">
+  <img src="screenshots/thehive-alert-created.png" alt="TheHive Alert" width="900">
 </p>
 
 <p align="center">
