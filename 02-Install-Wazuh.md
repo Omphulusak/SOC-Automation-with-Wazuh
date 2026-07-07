@@ -26,7 +26,7 @@ Instead of reproducing the official installation guide, I followed the Wazuh doc
 # Architecture
 
 <p align="center">
-<img src="../screenshots/soc-automation-architecture.png" width="900">
+<img src="screenshots/soc-automation-architecture.png" width="900">
 </p>
 
 <p align="center">
@@ -92,7 +92,7 @@ https://<WAZUH_SERVER_IP>
 The login page should appear.
 
 <p align="center">
-<img src="../screenshots/wazuh-login-page.png" width="900">
+<img src="screenshots/wazuh-login-page.png" width="900">
 </p>
 
 <p align="center">
@@ -106,7 +106,7 @@ The login page should appear.
 After authentication, I verified that the dashboard was operational.
 
 <p align="center">
-<img src="../screenshots/wazuh-dashboard-overview.png" width="900">
+<img src="screenshots/wazuh-dashboard-overview.png" width="900">
 </p>
 
 <p align="center">
@@ -142,7 +142,7 @@ Sysmon provides detailed logging for:
 After configuring the Wazuh Agent and Sysmon, I confirmed that Sysmon events were successfully ingested into Wazuh.
 
 <p align="center">
-<img src="../screenshots/wazuh-sysmon-events.png" width="900">
+<img src="screenshots/wazuh-sysmon-events.png" width="900">
 </p>
 
 <p align="center">
