@@ -146,17 +146,4 @@ This project was built using official documentation from:
 
 Special thanks to the open-source security community for providing these excellent tools.
 
----
 
-## Author
-
-**Omphulusa Khavhatondwi**
-
-Cybersecurity Enthusiast | SOC Analyst Aspirant
-
-- GitHub: https://github.com/Omphulusak
-- LinkedIn: https://www.linkedin.com/in/omphulusa-khavhatondwi-86a907246/
-
----
-
-⭐ If you found this project useful, consider giving it a star!
