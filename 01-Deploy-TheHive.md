@@ -24,7 +24,7 @@ TheHive serves as the incident response and case management platform within the 
 ## Architecture
 
 <p align="center">
-  <img src="../screenshots/soc-automation-architecture.png" alt="SOC Automation Architecture" width="900">
+  <img src="screenshots/soc-automation-architecture.png" alt="SOC Automation Architecture" width="900">
 </p>
 
 <p align="center">
@@ -318,7 +318,7 @@ http://<THEHIVE_SERVER_IP>:9000
 ```
 
 <p align="center">
-  <img src="../screenshots/thehive-login-page.png" alt="TheHive Login Page" width="900">
+  <img src="screenshots/thehive-login-page.png" alt="TheHive Login Page" width="900">
 </p>
 
 <p align="center">
@@ -344,7 +344,7 @@ The default credentials are:
 A dedicated user/service account was created for Shuffle SOAR integration. This allows Shuffle to authenticate with TheHive and automatically create alerts.
 
 <p align="center">
-  <img src="../screenshots/thehive-users-configuration.png" alt="TheHive Users Configuration" width="900">
+  <img src="screenshots/thehive-users-configuration.png" alt="TheHive Users Configuration" width="900">
 </p>
 
 <p align="center">
