@@ -9,7 +9,7 @@ To validate the SOC automation pipeline, I executed **Mimikatz** on the Windows 
 ## Architecture
 
 <p align="center">
-  <img src="../screenshots/soc-automation-architecture.png" alt="SOC Automation Architecture" width="900">
+  <img src="screenshots/soc-automation-architecture.png" alt="SOC Automation Architecture" width="900">
 </p>
 
 <p align="center">
@@ -42,7 +42,7 @@ The expected workflow was:
 After executing Mimikatz, Wazuh immediately generated a custom alert.
 
 <p align="center">
-  <img src="../screenshots/mimikatz-detection-results.png" alt="Mimikatz Detection" width="900">
+  <img src="screenshots/mimikatz-detection-results.png" alt="Mimikatz Detection" width="900">
 </p>
 
 <p align="center">
@@ -56,7 +56,7 @@ After executing Mimikatz, Wazuh immediately generated a custom alert.
 The generated alert contains the underlying Sysmon Process Creation event.
 
 <p align="center">
-  <img src="../screenshots/mimikatz-process-event.png" alt="Expanded Event" width="900">
+  <img src="screenshots/mimikatz-process-event.png" alt="Expanded Event" width="900">
 </p>
 
 <p align="center">
@@ -70,7 +70,7 @@ The generated alert contains the underlying Sysmon Process Creation event.
 Wazuh automatically forwarded the alert to Shuffle using a webhook.
 
 <p align="center">
-  <img src="../screenshots/shuffle-webhook-trigger.png" alt="Shuffle Webhook" width="900">
+  <img src="screenshots/shuffle-webhook-trigger.png" alt="Shuffle Webhook" width="900">
 </p>
 
 <p align="center">
@@ -89,7 +89,7 @@ Shuffle processed the alert by:
 - Sending an email notification
 
 <p align="center">
-  <img src="../screenshots/shuffle-workflow-overview.png" alt="Shuffle Workflow" width="900">
+  <img src="screenshots/shuffle-workflow-overview.png" alt="Shuffle Workflow" width="900">
 </p>
 
 <p align="center">
@@ -103,7 +103,7 @@ Shuffle processed the alert by:
 Shuffle successfully executed the email action.
 
 <p align="center">
-  <img src="../screenshots/shuffle-email-action-success.png" alt="Shuffle Email Success" width="900">
+  <img src="screenshots/shuffle-email-action-success.png" alt="Shuffle Email Success" width="900">
 </p>
 
 <p align="center">
@@ -113,7 +113,7 @@ Shuffle successfully executed the email action.
 The analyst received the notification.
 
 <p align="center">
-  <img src="../screenshots/email-alert-received.png" alt="Email Received" width="900">
+  <img src="screenshots/email-alert-received.png" alt="Email Received" width="900">
 </p>
 
 <p align="center">
@@ -127,7 +127,7 @@ The analyst received the notification.
 Shuffle automatically created a new alert inside TheHive.
 
 <p align="center">
-  <img src="../screenshots/thehive-alert-created.png" alt="TheHive Alert" width="900">
+  <img src="screenshots/thehive-alert-created.png" alt="TheHive Alert" width="900">
 </p>
 
 <p align="center">
