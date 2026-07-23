@@ -358,7 +358,7 @@ A dedicated user/service account was created for Shuffle SOAR integration. This 
 After integrating TheHive with Shuffle, I verified that Wazuh alerts were automatically created inside TheHive.
 
 <p align="center">
-  <img src="../screenshots/thehive-alert-created.png" alt="TheHive Alert Created" width="900">
+  <img src="screenshots/thehive-alert-created.png" alt="TheHive Alert Created" width="900">
 </p>
 
 <p align="center">
